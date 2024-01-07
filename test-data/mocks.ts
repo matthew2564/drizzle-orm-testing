@@ -13,6 +13,20 @@ export const data = {
     rekey: true,
 };
 
+export interface TestResultParams {
+    startDate: string;
+    endDate: string;
+    appRef: number;
+    staffNumber: string;
+    dtcCode: number;
+    driverNumber: string;
+    excludeAutoSavedTests: boolean;
+    activityCode: string;
+    category: string;
+    passCertNumber: string;
+    rekey: boolean;
+}
+
 // stub of TR interface
 export interface TestResult {
     hello: string;

@@ -1,4 +1,4 @@
-# Drizzle ORM POC
+# Database and ORM testing
 
 ## Pre-requisites
 - [npm](https://www.npmjs.com/) or [bun](https://bun.sh/)

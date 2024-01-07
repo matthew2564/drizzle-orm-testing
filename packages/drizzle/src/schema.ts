@@ -1,6 +1,6 @@
 // manage your schema
 import {bigint, boolean, date, json, mysqlTable, tinyint, varchar} from "drizzle-orm/mysql-core";
-import {TestResult} from "./mocks";
+import {TestResult} from "../../../test-data/mocks";
 
 export const TEST_RESULT = mysqlTable('TEST_RESULT', {
     appRef: varchar('application_reference', { length: 15 }).primaryKey(),

@@ -2,7 +2,8 @@
   "name": "drizzle-orm-testing",
   "version": "1.0.0",
   "description": "POC for using Drizzle ORM with TypeScript",
-  "main": "index.js",
+  "author": "matthew2564",
+  "license": "ISC",
   "scripts": {
     "test": "ts-node src/index.ts"
   },
@@ -11,8 +12,6 @@
     "orm",
     "typescript"
   ],
-  "author": "matthew2564",
-  "license": "ISC",
   "dependencies": {
     "drizzle-orm": "^0.29.3"
   },

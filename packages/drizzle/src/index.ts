@@ -2,7 +2,7 @@ import {QueryBuilder} from 'drizzle-orm/mysql-core';
 import {TEST_RESULT} from "./schema";
 import {and, between, desc, eq, ne} from "drizzle-orm";
 import type {SQLWrapper} from "drizzle-orm/sql/sql";
-import {data} from "./mocks";
+import {data} from "../../../test-data/mocks";
 
 const qb = new QueryBuilder();
 
